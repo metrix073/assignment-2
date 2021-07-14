@@ -179,19 +179,16 @@ body{
     color: #0A0826;
     margin-left: 10px;
 }
-.membarship{
-    
+.membarship{   
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    justify-items: center;
-    
+    justify-items: center;    
 }
 .membarship-card {
     width: 291px;
     height: 330px;
     border: 1px solid #D1D1D1;
 }
-
 .membarship-item-pic img{
     width: 290px;
     height: 173px;
@@ -295,7 +292,12 @@ footer p{
  
 
 
+
+
+
+
 /* reponsive part css */
+
 
 
 
@@ -323,10 +325,7 @@ footer p{
         width: 300px;
         height: auto;  
     }
-    footer img{
-        width: 250px;
-        height: auto;
-    }
+    
     .banner-title {
         font-size: 37px;
         font-weight: 700;
@@ -342,10 +341,30 @@ footer p{
         font-size: 30px;
         color: #0A0826;
     }
+    footer img{
+        width: 250px;
+        height: auto;
+    }
+    .social-icon a{
+        font-size: 22px;
+    }
+    .social-icon i {
+        font-size: 16px;
+        }
     
 }
 
+
+
+
+
+
+
+
+
+
 /* tablet responsive css  */
+
 
 @media only screen and (min-width:689px) and (max-width:1024px) {
 
@@ -382,4 +401,14 @@ footer p{
         color: white;
         
     }
+    footer img{
+        width: 250px;
+        height: auto;
+    }
+    .social-icon a{
+        font-size: 22px;
+    }
+    .social-icon i {
+        font-size: 16px;
+        }
 }
