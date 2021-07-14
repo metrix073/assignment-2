@@ -16,6 +16,12 @@ body{
     margin: auto;
     background: #fff;
 }
+hr {
+    margin: 0px;
+    background-color: #D1D1D1;
+    height: 1px;
+    border: none;
+}
 
 
 /* banner css part */
@@ -180,12 +186,9 @@ body{
     margin-left: 10px;
 }
 .membarship{   
-    /* display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-items: center;     */
     display: flex;
-  
     justify-content: space-around;
+    
 }
 .membarship-card {
     width: 291px;
@@ -229,8 +232,8 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-items: center;
-    padding-top: 20px;
-    padding-bottom: 100px;
+    padding: 20px 0;
+    
 }
 .fan-favorite{
     text-align: center;
@@ -272,6 +275,7 @@ body{
 
 footer{
     text-align: center;
+    padding-top: 50px;
 }
 footer img{
     width: 483px;
@@ -389,7 +393,8 @@ footer p{
     .max-width{
         width: 100%;
     }
-    .banner-items,.players,.membarship{    
+    .banner-items,.players,.membarship{  
+        display: grid;  
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
         grid-row-gap: 24px;  
