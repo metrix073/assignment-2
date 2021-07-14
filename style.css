@@ -1,0 +1,385 @@
+/* font cdn */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* defult css */
+
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #DEDEDE;
+    box-sizing: border-box;
+    
+}
+.max-width{
+    max-width: 1250px;
+    margin: auto;
+    background: #fff;
+}
+
+
+/* banner css part */
+
+
+.header-banner{
+       Width: 100%;
+       Height:677px;
+       background-color: rgba(45, 37, 160, 1);     
+}
+.banner-items {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding-top: 120px;
+}
+.banner-left-item{
+    width: 485px;
+    height: 301px;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+}
+.fa-arrow-right {
+    font-size: 16px;
+    padding-left: 12px;   
+}
+.banner-btn {
+    padding: 10px 24px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgba(224, 44, 109, 1);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.banner-right-item img{
+    width: 556px;
+    height: 438px;    
+} 
+
+
+
+
+/* banner hover css */
+
+
+
+
+.banner-btn:hover{
+    color: rgba(224, 44, 109, 1) ;
+    background-color: white;
+    border: 1px solid rgba(224, 44, 109, 1);
+    cursor: pointer;
+}
+.banner-right-item img:hover{
+    transform: translate(5px,-5px);
+    transition: transform 0.3s;
+}
+
+
+
+
+/* top players part css */
+
+
+
+
+ .top-players{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.players{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.player{
+    width: 300px;
+    height: 474px;
+    border: 15px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.player-pic img{
+    width: 300px;
+    height: 256px;
+}
+.player-dec{
+    width: 300px;
+}
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+
+
+/* highlight part css */
+
+
+
+
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding: 100px 0;
+}
+.highlight-left{
+    width: 469px;
+    height: 309px;
+}
+.hl-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.hl-dec{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 24px;
+}
+
+.highlight-right img{
+    width: 567px;
+    height: 427px;
+}
+
+
+
+
+
+/* membarship part */
+
+
+
+
+
+.membarship-part{
+    padding: 100px 0;
+}
+.membership-heading {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    color: #0A0826;
+    margin-left: 10px;
+}
+.membarship{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
+    
+}
+.membarship-card {
+    width: 291px;
+    height: 330px;
+    border: 1px solid #D1D1D1;
+}
+
+.membarship-item-pic img{
+    width: 290px;
+    height: 173px;
+}
+.membarship-dec {
+    padding-left: 5px;
+    color: #6C6C6C;
+}
+.btn-membarship {
+    padding: 8px 24px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgba(224, 44, 109, 1);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+
+
+
+/* football fan faveroit css */
+
+
+
+.football-fan-title{
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    color: #0A0826;
+    margin-left: 10px;
+}
+.football-fan{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.fan-favorite{
+    text-align: center;
+}
+.photo { 
+    overflow: hidden;
+}
+.fan-favorite h1 {
+        font-weight: 700;
+        font-size: 30px;
+        color: #0A0826;
+}
+.fan-favorite button {
+    padding: 10px 65px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgba(224, 44, 109, 1);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.photo img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.fan-favorite button:hover{
+    color: rgba(224, 44, 109, 1) ;
+    background-color: white;
+    border: 1px solid rgba(224, 44, 109, 1);
+    cursor: pointer;
+}
+
+
+
+/* footer part css */
+
+
+
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+.social-icon i {
+    font-size: 22px;
+    color: rgba(150, 155, 171, 1);
+    padding: 14px;
+}
+.social-icon a {
+    background-color: rgba(11, 13, 23, .1);
+    font-size: 28px;
+    border-radius: 50%;
+}
+footer p{
+    margin: 0;
+    padding: 15px 0;
+}
+ 
+
+
+/* reponsive part css */
+
+
+
+
+
+/* mobile responsive css*/
+
+@media only screen and (max-width:688px) {
+
+    .max-width{
+        width: 100%;
+    }
+    .banner-items,.players,.highlight,.membarship,.football-fan {
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        grid-row-gap: 24px;  
+    }
+    .banner-right-item img,.photo img,.highlight-right img,.highlight-left{
+        width: 300px;
+        height: 256px;  
+        
+    }
+    .banner-left-item{
+        width: 300px;
+        height: auto;  
+    }
+    footer img{
+        width: 250px;
+        height: auto;
+    }
+    .banner-title {
+        font-size: 37px;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 2px;
+    }
+   
+    .highlight-left{
+        margin-bottom: 150px;
+    }
+    .hl-title{
+        font-weight: 700;
+        font-size: 30px;
+        color: #0A0826;
+    }
+    
+}
+
+/* tablet responsive css  */
+
+@media only screen and (min-width:689px) and (max-width:1024px) {
+
+
+    .max-width{
+        width: 100%;
+    }
+    .banner-items,.players,.membarship{    
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        grid-row-gap: 24px;  
+        width: 100%;
+    }
+    .highlight,.football-fan{    
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center; 
+        grid-row-gap: 24px;   
+    }
+    .highlight-left{
+        margin-bottom: 150px;
+    }
+    .banner-right-item img{
+        width: 300px;
+        height: 256px;  
+        
+    }
+    .banner-left-item{
+        width: 300px;
+        height: auto;  
+    }
+    .banner-title {
+        font-size: 37px;
+        font-weight: 700;
+        color: white;
+        
+    }
+}
